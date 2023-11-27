@@ -1,5 +1,15 @@
 package ua.com.foxminded.task;
-
+//Create a univariate array of int type, with the length of N. 
+//Fill the elements with random numbers from 1 to 100. 
+//Find the arithmetic mean of its elements. 
+//Display only those array elements that are bigger than the found arithmetic mean. 
+//
+//For instance, there are:
+//
+//[10, 20, 30, 40, 50]
+//
+//The result:
+//40, 50
 
 import java.util.Arrays;
 import java.util.Random;
@@ -18,9 +28,9 @@ public class TaskEXAM {
 	        
 	      } armean = sum/n;
 	      
-	      Arrays.sort(armean); // Sorting array
+	      Arrays.sort(arr); // Sorting array
 	      
-	       int[] distinct = removeDuplicates(arr);  
+	   
 	      for (int i = 0; i < n; i++) 
 	            if (arr[i] > armean) 
 	         	
@@ -28,9 +38,7 @@ public class TaskEXAM {
 
 	}
 
-	private static int[] removeDuplicates(int[] arr) {
-		// TODO Auto-generated method stub
-		return null;
+	
 	}
 
-}
+
