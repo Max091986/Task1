@@ -2,7 +2,7 @@ package ua.com.foxminded.task;
 //A freehand row is given, it must be displayed without ‘a, e, i, o, u’ letters.
 //For instance: London is the capital of Great Britain
 //
-//The result: Lndn s th cptl f Grt Brtn
+//The result: Lndn s th cptl f Grt Brtn/
 
 import java.util.Scanner;
 

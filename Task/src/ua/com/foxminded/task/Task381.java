@@ -2,7 +2,7 @@ package ua.com.foxminded.task;
 
 //Write a code that brings the number A into the integral-value deg N (N>0). 
 //A number and a deg are entered from a keyboard.
-//For instance: A = 2, N = 3, the answer is 8.
+//For instance: A = 2, N = 3, the answer is 8./
 
 import java.util.Scanner;
 public class Task381 {
