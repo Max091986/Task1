@@ -12,21 +12,49 @@ public class Task46 {
 
 	      
 	public static void main(String[] args) {
- String num;
-		Scanner english = new Scanner(System.in);
-		System.out.print(" to enter the same worlds: ");
-	      letter= english.nextLine();
-//	     
-//	      String []english1 = {" "};
-//	  
-//	      System.out.println(num);
-//
 
+		Scanner sc = new Scanner(System.in);
+		System.out.print(" to enter the same worlds: ");
+	  String line = sc.nextLine();
+
+	        String[] lines = line.split("");
+	        String a = "a";
+	        String u = "u";
+	        String i = "i";
+	        int count = 0;
+	        int count1 = 0;
+	        int count2 = 0;
+	        for(int j = 0; j < lines.length; j++){
+	            if(a.equals(lines[j])){
+	                count = ++count + 0;
+	            }
+	            if  (u.equals(lines[j])) {
+	            	count1 = ++count1 + 0;
+	            }
+	            if   (i.equals(lines[j])) {
+	            	count2 = ++count2 + 0;
+	        }
+	        }
+	        
+	        System.out.println(a + ": " + count);
+	        System.out.println(u + ": " + count1);
+	        System.out.println(i + ": " + count2);
+	    }
+}
+
+
+	      
+//		System.out.println(  );
 		
 		
-		
-//	        String vowels = "aeiouy";
-//	        String[] strings = {"fakldey", "vhgaaauiohg", "daserew", "fertyre", "ewfewf", "fewwdwd", "dewfgny"};
+//		  String[] num1 = {letter};
+////	      int loopsum = 0; 
+//	      for(String s : num1) { 
+//	    	  char c = 0;
+//			if ( c == 'o')
+//				c=(char) (c + s.length()); 
+//	       
+//	        
 //	        for (int i = strings.length - 3; i < strings.length; i++) {
 //	            for (String letter : strings[i].split("")) {
 //	                if (vowels.contains(letter)) {
@@ -34,8 +62,8 @@ public class Task46 {
 //	                }
 //	            }
 //	        }
-	    }
-    }
+//	    }
+//    }
 
 
 //https://www.cyberforum.ru/java-j2se/thread2523760.html
